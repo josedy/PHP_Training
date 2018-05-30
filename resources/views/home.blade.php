@@ -20,8 +20,6 @@
           <li><a href="#">Error handling</a></li>
         </ul>
       </ul>
-    </div>
-    <div class="col-md-6">
       <h4>Block 2:</h4>
       <ul>
         <li><a href="#">Databases</a></li>
@@ -37,6 +35,9 @@
           <li><a href="#">Data handling</a></li>
         </ul>
       </ul>
+    </div>
+    <div class="col-md-6">
+      <img src="/images/php_laravel_logo.jpg" id="image_laravel">
     </div>
   </div>
 </div>

@@ -46,6 +46,9 @@ $(document).ready(function(){
         });
         event.preventDefault();
     });
+
+    $val = $("#is_active").val();
+    $("#"+$val).addClass("active");
 });
 
 $(window).scroll(function() {

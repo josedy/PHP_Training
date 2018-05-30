@@ -17,9 +17,3 @@
     </div>
     <input type="hidden" id="is_active" value="@yield('active')">
 </nav>
-<script>
-    $(document).ready(function () {
-        $val = $("#is_active").val();
-        $("#"+$val).addClass("active");
-    });
-</script>

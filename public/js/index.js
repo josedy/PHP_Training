@@ -21,7 +21,7 @@ $(document).ready(function(){
         /*$.post('/setValues', JSON.stringify({name: $name, email: $email, phone: $phone}), function(data, textStatus, xhr) {
             alert(data);
         });*/
-        
+
 
         $("#name").val("");
         $("#email").val("");
@@ -49,6 +49,7 @@ $(document).ready(function(){
 
     $val = $("#is_active").val();
     $("#"+$val).addClass("active");
+    $("#"+$val).find("a").css("color","#000");
 });
 
 $(window).scroll(function() {
